@@ -1,0 +1,112 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 11 (0xb)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=FR, O=Projet PKI, OU=Projet PKI Certificate Authority, CN=Projet PKI Root CA
+        Validity
+            Not Before: Mar  7 11:31:18 2019 GMT
+            Not After : Dec 31 23:59:59 2030 GMT
+        Subject: C=FR, O=Projet PKI, OU=Projet PKI Certificate Authority, CN=Projet PKI Encrypt CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (3072 bit)
+                Modulus:
+                    00:a8:90:49:97:12:d8:42:4b:21:8e:5a:ef:47:96:
+                    07:03:68:f0:87:5b:17:6a:46:03:d9:10:fe:17:15:
+                    2d:4e:8a:5a:23:15:32:76:76:32:8a:6f:5b:65:e9:
+                    47:9b:2c:b2:12:87:07:cd:45:00:a6:23:de:50:f7:
+                    9b:d3:8b:18:91:42:17:6b:1f:2f:ef:c2:ae:d4:40:
+                    ba:52:11:b9:29:65:43:08:11:73:88:76:32:02:0d:
+                    21:b3:bd:14:f8:68:dd:26:39:06:f3:1e:4b:f6:ba:
+                    21:b0:34:9e:af:d7:66:1c:7b:4a:28:dd:d1:be:4b:
+                    33:4c:06:03:b0:d6:b8:60:91:00:0f:c6:94:e6:c0:
+                    d4:d9:0b:55:41:1a:92:90:81:90:44:75:74:d1:94:
+                    30:f6:d1:62:c9:e7:c3:f4:3b:89:d4:8b:ce:ba:89:
+                    c5:ae:46:ef:11:c8:4a:95:a4:ab:06:36:92:21:bc:
+                    3e:33:24:ab:1a:9e:59:0d:bd:ab:61:a2:00:33:8f:
+                    3b:26:6c:3b:cb:be:7e:58:ae:fb:f9:47:03:4c:c6:
+                    ac:9a:9a:db:41:a9:f1:45:5a:55:44:2f:7d:58:00:
+                    a0:98:a6:51:b2:7f:80:8f:18:0a:b1:25:56:f9:12:
+                    b2:5d:59:ee:99:85:4b:f9:6c:b3:24:f5:1c:3e:eb:
+                    6a:79:27:fe:d6:d5:f6:47:20:27:29:08:fe:c4:5b:
+                    bb:c4:93:2c:39:ec:ba:92:7f:a1:fb:8b:7b:46:67:
+                    7d:08:0d:d4:b9:28:36:68:0e:22:58:25:f3:28:8d:
+                    c5:69:7d:d3:c9:21:e0:8c:6c:14:5d:73:01:cb:fb:
+                    8b:15:63:ba:ed:e3:ec:19:86:49:d0:a4:d7:5d:83:
+                    c5:ea:2b:66:d4:ac:c2:dc:4f:04:90:00:2e:c4:3a:
+                    c4:bd:0e:05:66:fb:b2:7e:b2:5a:d3:b4:92:e3:2e:
+                    4b:9c:ff:96:db:77:1a:e9:eb:48:29:cb:f8:e9:57:
+                    f6:5c:7c:05:b2:98:f1:30:ae:cf
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 Subject Key Identifier: 
+                17:7A:94:32:DE:D1:83:59:6E:B2:51:40:E5:5B:CF:A3:28:14:30:AA
+            X509v3 Authority Key Identifier: 
+                keyid:AA:B7:CF:6C:2C:D7:77:46:86:71:D2:6A:21:F5:D8:C7:C7:C7:3D:31
+
+            Authority Information Access: 
+                CA Issuers - URI:https://herrenschmidt.pro/ca/root-ca.cer
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:https://herrenschmidt.pro/ca/root-ca.crl
+
+    Signature Algorithm: sha256WithRSAEncryption
+         28:46:77:3d:94:6c:6f:87:88:4d:ec:20:32:4d:e3:86:f4:91:
+         f6:78:70:f3:2c:12:0c:05:9c:6f:7d:8d:f7:c6:44:9f:18:67:
+         11:45:9e:b2:44:9d:1f:a5:e1:55:c4:51:3d:fa:cb:6e:c7:1a:
+         96:e7:2a:b7:6c:11:7c:ca:e1:f8:5a:11:ab:8b:2e:b3:89:89:
+         37:e3:f9:23:f5:9b:92:e0:67:ba:71:ab:b0:a4:66:a5:0f:dd:
+         b2:cb:84:3b:74:35:80:61:7a:da:c8:96:fe:e8:f1:c2:4a:43:
+         7d:8c:aa:76:82:96:19:c8:af:1c:e8:aa:7e:bf:59:be:c3:a6:
+         f2:c1:d5:3a:43:72:b2:3c:3d:da:e0:27:00:15:2a:67:e1:bb:
+         7f:1d:e4:84:a7:b6:3f:13:35:39:eb:2e:d5:c5:af:d7:6c:4d:
+         2f:22:56:a0:07:a1:e9:fe:57:a9:a2:48:08:fc:9b:d5:2a:4f:
+         28:df:98:c0:87:1c:e0:a2:8e:ac:eb:8a:1f:0f:6b:8f:34:5c:
+         15:2c:fe:1c:a9:67:3b:48:b5:45:55:29:30:78:5a:b2:d2:19:
+         b8:89:f3:d4:f3:af:bf:dc:42:9b:95:53:ad:ff:74:36:fb:f3:
+         84:1a:92:23:dd:3a:54:da:b1:b1:67:ff:c8:2f:3d:67:a9:c4:
+         39:f8:41:a6:b2:0c:89:23:ee:88:20:a1:27:10:ad:73:cb:26:
+         ff:ad:26:80:e0:49:e7:59:9c:9e:7a:5c:e9:b4:25:fb:01:0f:
+         a8:d4:c7:98:f7:95:22:01:34:aa:96:ec:ad:c8:18:e1:99:76:
+         44:28:e5:41:b2:bc:9b:75:b1:18:3b:31:8e:59:12:8d:23:4f:
+         30:b2:59:ee:5f:a5:cc:fc:65:14:ee:79:85:9f:36:a4:bf:d7:
+         33:ce:ca:87:09:6d:29:5b:d7:07:9b:37:a5:57:67:b7:98:fb:
+         f4:eb:3d:fa:de:12:03:d3:61:18:be:d6:29:5e:68:36:b3:c2:
+         ca:a4:f1:87:7b:83
+-----BEGIN CERTIFICATE-----
+MIIFOzCCA6OgAwIBAgIBCzANBgkqhkiG9w0BAQsFADBqMQswCQYDVQQGEwJGUjET
+MBEGA1UECgwKUHJvamV0IFBLSTEpMCcGA1UECwwgUHJvamV0IFBLSSBDZXJ0aWZp
+Y2F0ZSBBdXRob3JpdHkxGzAZBgNVBAMMElByb2pldCBQS0kgUm9vdCBDQTAeFw0x
+OTAzMDcxMTMxMThaFw0zMDEyMzEyMzU5NTlaMG0xCzAJBgNVBAYTAkZSMRMwEQYD
+VQQKDApQcm9qZXQgUEtJMSkwJwYDVQQLDCBQcm9qZXQgUEtJIENlcnRpZmljYXRl
+IEF1dGhvcml0eTEeMBwGA1UEAwwVUHJvamV0IFBLSSBFbmNyeXB0IENBMIIBojAN
+BgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAqJBJlxLYQkshjlrvR5YHA2jwh1sX
+akYD2RD+FxUtTopaIxUydnYyim9bZelHmyyyEocHzUUApiPeUPeb04sYkUIXax8v
+78Ku1EC6UhG5KWVDCBFziHYyAg0hs70U+GjdJjkG8x5L9rohsDSer9dmHHtKKN3R
+vkszTAYDsNa4YJEAD8aU5sDU2QtVQRqSkIGQRHV00ZQw9tFiyefD9DuJ1IvOuonF
+rkbvEchKlaSrBjaSIbw+MySrGp5ZDb2rYaIAM487Jmw7y75+WK77+UcDTMasmprb
+QanxRVpVRC99WACgmKZRsn+AjxgKsSVW+RKyXVnumYVL+WyzJPUcPutqeSf+1tX2
+RyAnKQj+xFu7xJMsOey6kn+h+4t7Rmd9CA3UuSg2aA4iWCXzKI3FaX3TySHgjGwU
+XXMBy/uLFWO67ePsGYZJ0KTXXYPF6itm1KzC3E8EkAAuxDrEvQ4FZvuyfrJa07SS
+4y5LnP+W23ca6etIKcv46Vf2XHwFspjxMK7PAgMBAAGjgegwgeUwDgYDVR0PAQH/
+BAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFBd6lDLe0YNZbrJR
+QOVbz6MoFDCqMB8GA1UdIwQYMBaAFKq3z2ws13dGhnHSaiH12MfHxz0xMEQGCCsG
+AQUFBwEBBDgwNjA0BggrBgEFBQcwAoYoaHR0cHM6Ly9oZXJyZW5zY2htaWR0LnBy
+by9jYS9yb290LWNhLmNlcjA5BgNVHR8EMjAwMC6gLKAqhihodHRwczovL2hlcnJl
+bnNjaG1pZHQucHJvL2NhL3Jvb3QtY2EuY3JsMA0GCSqGSIb3DQEBCwUAA4IBgQAo
+Rnc9lGxvh4hN7CAyTeOG9JH2eHDzLBIMBZxvfY33xkSfGGcRRZ6yRJ0fpeFVxFE9
++stuxxqW5yq3bBF8yuH4WhGriy6ziYk34/kj9ZuS4Ge6cauwpGalD92yy4Q7dDWA
+YXrayJb+6PHCSkN9jKp2gpYZyK8c6Kp+v1m+w6bywdU6Q3KyPD3a4CcAFSpn4bt/
+HeSEp7Y/EzU56y7Vxa/XbE0vIlagB6Hp/lepokgI/JvVKk8o35jAhxzgoo6s64of
+D2uPNFwVLP4cqWc7SLVFVSkweFqy0hm4ifPU86+/3EKblVOt/3Q2+/OEGpIj3TpU
+2rGxZ//ILz1nqcQ5+EGmsgyJI+6IIKEnEK1zyyb/rSaA4EnnWZyeelzptCX7AQ+o
+1MeY95UiATSqluytyBjhmXZEKOVBsrybdbEYOzGOWRKNI08wslnuX6XM/GUU7nmF
+nzakv9czzsqHCW0pW9cHmzelV2e3mPv06z363hID02EYvtYpXmg2s8LKpPGHe4M=
+-----END CERTIFICATE-----
