@@ -8,3 +8,6 @@ openssl ca \
     -out ../certs/$dns.crt \
     -extensions server_ext \
     -enddate 20200101000000Z
+
+cat ../certs/$dns.crt ../ca/auth-ca.crt ../ca/root-ca.crt > \
+    ../certs/$dns-chain.pem

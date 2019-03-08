@@ -5,3 +5,4 @@ V	200101000000Z		04	unknown	/C=FR/ST=Var/L=Toulon/O=Projet PKI/OU=test auth/CN=w
 V	200101000000Z		05	unknown	/C=FR/ST=Var/L=Toulon/O=Projet PKI/OU=test cert serveur/CN=serveur.fr
 V	200101000000Z		06	unknown	/C=FR/ST=Var/L=Toulon/O=Projet PKI/OU=test cert serveur/CN=serveur.fr
 V	200101000000Z		07	unknown	/C=FR/ST=Var/L=Toulon/O=Projet PKI/OU=test/CN=client test
+V	200101000000Z		08	unknown	/C=FR/ST=Var/L=Toulon/O=Projet PKI/OU=test/CN=test

@@ -8,3 +8,6 @@ openssl ca \
     -out ../certs/$cert_name.crt \
     -extensions codesign_ext \
     -enddate 20200101000000Z 
+
+cat ../certs/$cert_name.crt ../ca/encrypt-ca.crt ../ca/root-ca.crt > \
+    ../certs/$cert_name-chain.pem

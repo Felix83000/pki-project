@@ -9,3 +9,6 @@ openssl ca \
     -policy extern_pol \
     -extensions client_ext \
     -enddate 20200101000000Z 
+
+cat ../certs/$cert_name.crt ../ca/auth-ca.crt ../ca/root-ca.crt > \
+    ../certs/$cert_name-chain.pem
