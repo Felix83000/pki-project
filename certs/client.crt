@@ -1,0 +1,117 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 7 (0x7)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=FR, O=Projet PKI, OU=Projet PKI Certificate Authority, CN=Projet PKI Auth CA
+        Validity
+            Not Before: Mar  8 09:47:32 2019 GMT
+            Not After : Jan  1 00:00:00 2020 GMT
+        Subject: C=FR, ST=Var, L=Toulon, O=Projet PKI, OU=test, CN=client test
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (3072 bit)
+                Modulus:
+                    00:cf:f1:c4:ed:78:c7:cf:e4:58:e5:09:4b:7d:ab:
+                    99:e4:83:8d:89:ed:bf:b2:03:bb:6f:10:54:e5:ed:
+                    74:ab:1a:07:cd:dd:51:2a:4b:ee:6b:91:54:56:3f:
+                    e4:4a:fc:1e:90:b9:b6:f4:72:7c:04:4e:c4:74:d9:
+                    08:cf:4e:b8:17:9e:d7:37:d2:e9:94:5f:32:7c:a1:
+                    82:d2:65:57:37:61:11:51:9a:b7:49:9a:83:80:1c:
+                    f7:aa:65:08:98:2a:ec:d0:9e:8e:8c:38:c2:e1:05:
+                    88:90:de:1a:6e:c8:b8:0a:4f:ff:bd:d0:4a:dd:ff:
+                    19:94:3b:43:05:5a:13:70:0d:71:49:65:f7:39:8b:
+                    b1:7a:4e:73:84:52:8c:f8:8d:8f:1c:5e:3b:ba:6a:
+                    4a:74:90:b0:de:7a:03:61:e3:5d:44:f7:c0:9c:1a:
+                    bd:31:83:55:53:f8:02:8c:20:b2:46:93:32:76:dc:
+                    ba:b7:1f:f8:33:fa:d9:70:42:ca:d3:10:7c:20:31:
+                    e8:bb:4f:10:eb:d7:d4:dd:25:a8:8c:90:7e:9c:5d:
+                    2f:eb:37:a1:fd:a1:9d:96:7b:44:64:75:51:44:df:
+                    9b:a6:78:88:4c:86:72:37:a8:7b:f9:2e:31:02:d6:
+                    57:f3:8c:6c:b0:d9:80:6d:b8:00:46:b1:7e:a3:43:
+                    6c:f9:16:9d:5d:c2:bd:ec:d8:00:88:b5:3b:41:b7:
+                    13:f2:ae:ca:21:e8:f3:f2:89:42:4c:eb:4a:b5:53:
+                    54:c3:a5:f2:ca:ac:ee:d4:9a:f6:e5:89:19:75:96:
+                    7e:12:74:34:7d:65:56:12:69:c9:79:a9:b9:7b:74:
+                    54:e8:e1:ec:d2:5d:af:78:21:65:42:a4:92:37:7b:
+                    4b:11:cd:e7:13:17:0b:df:93:c8:58:96:09:d1:1a:
+                    77:f8:f6:65:53:9d:52:ba:3a:af:ca:0f:81:26:91:
+                    62:a3:6f:fd:ad:dc:fa:05:20:d2:46:7b:c6:fd:a6:
+                    f9:f9:1f:fc:a5:32:86:70:f4:93
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                88:E7:67:CD:76:66:28:DE:56:EF:CA:97:D5:57:64:69:C3:BC:36:98
+            X509v3 Authority Key Identifier: 
+                keyid:BE:B1:3D:58:AD:A3:FF:8B:B8:1B:73:ED:8D:22:88:9D:30:C2:AF:13
+
+            Authority Information Access: 
+                CA Issuers - URI:https://herrenschmidt.pro/ca/auth-ca.cer
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:https://herrenschmidt.pro/ca/auth-ca.crl
+
+            X509v3 Subject Alternative Name: 
+                email:client@test.fr
+    Signature Algorithm: sha256WithRSAEncryption
+         a3:15:13:22:6b:59:f7:8f:08:42:4d:37:67:a3:ff:d5:b9:b6:
+         c1:50:42:0b:c8:4a:93:a9:4d:6b:c5:c5:3d:a5:e2:11:9f:c8:
+         d9:5d:72:f5:d7:1f:ca:48:04:cd:ce:98:f7:bd:60:2d:23:91:
+         4c:36:f9:de:25:55:67:8e:ce:7c:a3:2c:51:3f:65:48:50:4e:
+         86:ab:cd:9e:b5:cb:be:fe:d1:56:5d:96:b1:48:42:39:49:01:
+         38:05:98:72:83:75:46:80:5a:02:e6:f2:06:b7:f9:7a:7f:97:
+         6e:05:44:e5:d6:29:09:53:1f:89:7c:75:80:0f:d8:ef:b7:6a:
+         ec:fa:3a:f3:64:ad:71:55:d8:87:9d:e4:45:dc:0b:f9:b0:5f:
+         d8:02:fb:57:40:dd:1c:14:59:64:aa:cd:07:f6:72:3f:ad:0b:
+         63:38:78:bd:fd:47:c1:84:78:50:80:a4:2d:a1:4e:d6:14:54:
+         1d:56:f9:31:53:95:59:03:ea:5c:1b:82:4d:38:16:d0:53:a1:
+         c6:99:7c:2c:56:88:5a:76:67:e0:e5:c0:3d:7b:0d:47:12:67:
+         d8:26:b3:eb:c4:c6:27:0d:26:74:0b:ba:b0:6f:ac:7b:f2:a0:
+         a8:4f:48:61:7d:d9:d5:d9:65:6c:9d:ac:17:5e:a2:8d:92:29:
+         67:41:64:6c:de:55:92:2d:0b:66:f2:87:9b:f6:31:2d:c4:c4:
+         e1:2d:7f:0c:c4:e2:95:b6:15:97:52:e1:d1:ad:8c:16:5c:b0:
+         7a:cc:56:b1:9a:a2:12:77:16:ed:c6:19:db:52:98:14:d1:ce:
+         7d:d3:a2:9e:68:dd:b8:3b:a5:33:eb:1e:7f:2b:8a:65:82:f3:
+         0f:80:30:a2:8e:39:a0:3b:77:3c:a0:a4:bb:8f:0e:16:64:30:
+         5e:d9:b6:02:84:3b:3b:e3:d7:5d:78:11:30:d5:28:69:87:e5:
+         1f:ef:22:78:eb:69:6b:f3:61:92:e7:50:c8:c2:cd:17:40:40:
+         bd:6f:9b:6c:3d:92
+-----BEGIN CERTIFICATE-----
+MIIFXTCCA8WgAwIBAgIBBzANBgkqhkiG9w0BAQsFADBqMQswCQYDVQQGEwJGUjET
+MBEGA1UECgwKUHJvamV0IFBLSTEpMCcGA1UECwwgUHJvamV0IFBLSSBDZXJ0aWZp
+Y2F0ZSBBdXRob3JpdHkxGzAZBgNVBAMMElByb2pldCBQS0kgQXV0aCBDQTAeFw0x
+OTAzMDgwOTQ3MzJaFw0yMDAxMDEwMDAwMDBaMGYxCzAJBgNVBAYTAkZSMQwwCgYD
+VQQIDANWYXIxDzANBgNVBAcMBlRvdWxvbjETMBEGA1UECgwKUHJvamV0IFBLSTEN
+MAsGA1UECwwEdGVzdDEUMBIGA1UEAwwLY2xpZW50IHRlc3QwggGiMA0GCSqGSIb3
+DQEBAQUAA4IBjwAwggGKAoIBgQDP8cTteMfP5FjlCUt9q5nkg42J7b+yA7tvEFTl
+7XSrGgfN3VEqS+5rkVRWP+RK/B6Qubb0cnwETsR02QjPTrgXntc30umUXzJ8oYLS
+ZVc3YRFRmrdJmoOAHPeqZQiYKuzQno6MOMLhBYiQ3hpuyLgKT/+90Erd/xmUO0MF
+WhNwDXFJZfc5i7F6TnOEUoz4jY8cXju6akp0kLDeegNh411E98CcGr0xg1VT+AKM
+ILJGkzJ23Lq3H/gz+tlwQsrTEHwgMei7TxDr19TdJaiMkH6cXS/rN6H9oZ2We0Rk
+dVFE35umeIhMhnI3qHv5LjEC1lfzjGyw2YBtuABGsX6jQ2z5Fp1dwr3s2ACItTtB
+txPyrsoh6PPyiUJM60q1U1TDpfLKrO7UmvbliRl1ln4SdDR9ZVYSacl5qbl7dFTo
+4ezSXa94IWVCpJI3e0sRzecTFwvfk8hYlgnRGnf49mVTnVK6Oq/KD4EmkWKjb/2t
+3PoFINJGe8b9pvn5H/ylMoZw9JMCAwEAAaOCARAwggEMMA4GA1UdDwEB/wQEAwIH
+gDAJBgNVHRMEAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMCMB0GA1UdDgQWBBSI52fN
+dmYo3lbvypfVV2Rpw7w2mDAfBgNVHSMEGDAWgBS+sT1YraP/i7gbc+2NIoidMMKv
+EzBEBggrBgEFBQcBAQQ4MDYwNAYIKwYBBQUHMAKGKGh0dHBzOi8vaGVycmVuc2No
+bWlkdC5wcm8vY2EvYXV0aC1jYS5jZXIwOQYDVR0fBDIwMDAuoCygKoYoaHR0cHM6
+Ly9oZXJyZW5zY2htaWR0LnByby9jYS9hdXRoLWNhLmNybDAZBgNVHREEEjAQgQ5j
+bGllbnRAdGVzdC5mcjANBgkqhkiG9w0BAQsFAAOCAYEAoxUTImtZ948IQk03Z6P/
+1bm2wVBCC8hKk6lNa8XFPaXiEZ/I2V1y9dcfykgEzc6Y971gLSORTDb53iVVZ47O
+fKMsUT9lSFBOhqvNnrXLvv7RVl2WsUhCOUkBOAWYcoN1RoBaAubyBrf5en+XbgVE
+5dYpCVMfiXx1gA/Y77dq7Po682StcVXYh53kRdwL+bBf2AL7V0DdHBRZZKrNB/Zy
+P60LYzh4vf1HwYR4UICkLaFO1hRUHVb5MVOVWQPqXBuCTTgW0FOhxpl8LFaIWnZn
+4OXAPXsNRxJn2Caz68TGJw0mdAu6sG+se/KgqE9IYX3Z1dllbJ2sF16ijZIpZ0Fk
+bN5Vki0LZvKHm/YxLcTE4S1/DMTilbYVl1Lh0a2MFlywesxWsZqiEncW7cYZ21KY
+FNHOfdOinmjduDulM+sefyuKZYLzD4Awoo45oDt3PKCku48OFmQwXtm2AoQ7O+PX
+XXgRMNUoaYflH+8ieOtpa/NhkudQyMLNF0BAvW+bbD2S
+-----END CERTIFICATE-----
